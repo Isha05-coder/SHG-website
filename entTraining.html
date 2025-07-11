@@ -1,0 +1,270 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entrepreneurship Training | SHG Empowerment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #28a745;
+      --green-dark: #1e7e34;
+      --green-light: #c8e6c9;
+      --light: #ffffff;
+      --dark: #212529;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--light);
+      color: var(--dark);
+    }
+
+    header,
+    footer {
+      background-color: rgb(2, 109, 2);
+      color: var(--light);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(3, 141, 3);
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: var(--light);
+      font-size: 1.2rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 4rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+
+    .feature-card {
+      background-color: #f1f8e9;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-card img {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .feature-card i {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .realSKills {
+      background-color: #eef9f0;
+      border-radius: 10px;
+    }
+
+    .image-text {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: flex-start;
+      margin-top: 3rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .image-text img {
+      max-width: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .image-text div {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .image-text h3 {
+      font-size: 1.8rem;
+      color: #1e7e34;
+      margin-bottom: 1rem;
+    }
+
+    .image-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .cta {
+      background-color: var(--green-light);
+      text-align: center;
+      padding: 3rem 1rem;
+      border-radius: 7px;
+    }
+
+    .cta a {
+      background-color: var(--primary);
+      color: white;
+      padding: 0.75rem 2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .image-text {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>SHG Empowerment</h1>
+    <p>Entrepreneurship Training for Rural Women</p>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-brand">SHG Empowerment</div>
+    <div class="nav-links">
+      <a href="shg.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="program.html">Programs</a>
+      <a href="stories.html">Stories</a>
+      <a href="donate.html">Donate</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+   <img src ="./Assets/EntTraining.jpeg" height="500px" width="100%">
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <h2>What We Offer</h2>
+    <div class="features">
+      <div class="feature-card">
+        <img src="./Assets/businessPlanning.jpeg" alt="Business Planning" >
+        <i class="fas fa-pencil-ruler"></i>
+        <h4>Business Planning</h4>
+        <p>Step-by-step guidance to start and grow your enterprise.</p>
+      </div>
+      <div class="feature-card">
+        <img src="./Assets/brandingMarketing.jpeg" alt="Branding and Marketing">
+        <i class="fas fa-bullhorn"></i>
+        <h4>Branding & Marketing</h4>
+        <p>Learn how to position and promote your business effectively.</p>
+      </div>
+      <div class="feature-card">
+        <img src="./Assets/MicroFinance.jpeg" alt="Microfinance Access">
+        <i class="fas fa-hand-holding-usd"></i>
+        <h4>Access to Microfinance</h4>
+        <p>Connect with microloan providers to fund your ideas.</p>
+      </div>
+      <div class="feature-card">
+        <img src="./Assets/localoGlobal.jpeg" alt="E-commerce Empowerment">
+        <i class="fas fa-store"></i>
+        <h4>Local to Global</h4>
+        <p>Use digital tools to reach wider markets through e-commerce.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image + Text -->
+  <section class="realSKills mb-5 container">
+    <div class="image-text my-3 py-3">
+      <img src="Assets/training1.jpeg" alt="Training Image">
+      <div>
+        <h3>Real Skills. Real Change.</h3>
+        <p>Our hands-on workshops help women create business plans, understand customers, and launch successful
+          ventures. Whether it's tailoring, farming products, or food processing — we guide every step.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta mb-4 container">
+    <h2>Ready to Start Your Business?</h2>
+    <p>Join our next training session and begin your entrepreneurial journey.</p>
+    <a href="contact.html">Join Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Empowering SHGs | Built with ❤ for Rural Women</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
